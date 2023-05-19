@@ -1,0 +1,28 @@
+<div class="card" style="width: 50rem;">
+  <div class="card-body">
+    <select #batches (change)="onSelected(batches.value)" class="form-select" aria-label="Default select example">
+      <option selected>Open this select Batch</option>
+      <option *ngFor="let x of lItem">{{x}}</option>
+    </select>
+
+    <div>
+      <table *ngIf="IsTrue" class="table table-borderless">
+        <thead class="table-light">
+          <tr >
+            <th scope="col">Id</th>
+            <th scope="col">Batch</th>
+            <th scope="col">Fees</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let x of msg">
+          <tr class="table-info">
+            <td>{{x._id}}</td>
+            <td>{{x.Batch}}</td>
+            <td>{{x.Fees}}</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

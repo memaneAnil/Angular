@@ -1,0 +1,18 @@
+<div class="card" style="width: 50rem;">
+    <div class="card-body">
+        <form>
+            <label class="text-primary"><small>Update Record</small></label>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input [(ngModel)]="batch" name="bname" type="text" class="form-control" placeholder="batchname"
+                    aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input [(ngModel)]="fees" name="fees" type="text" class="form-control" placeholder="fees"
+                    aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <button (click)="updateData()" type="button" class="btn btn-info">Submit</button>
+        </form>
+    </div>
+</div>

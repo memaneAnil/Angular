@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+form
+{
+    margin-top: 5%;
+}
+.card
+{
+    margin-top: 5%;
+    padding: 5%;
+    margin-left: 10%;
+}
