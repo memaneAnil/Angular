@@ -1,0 +1,13 @@
+[
+    {"id":1,"name":"jay","age":23,"salary":30000},
+    {"id":1,"name":"jaya","age":26,"salary":35000},
+    {"id":2,"name":"ajay","age":28,"salary":40000},
+    {"id":2,"name":"jayant","age":26,"salary":45000},
+    {"id":3,"name":"jayaram","age":27,"salary":50000},
+    {"id":3,"name":"vijay","age":28,"salary":55000},
+    {"id":4,"name":"sujay","age":23,"salary":60000},
+    {"id":4,"name":"atul","age":26,"salary":60000},
+    {"id":5,"name":"ray","age":28,"salary":60000},
+    {"id":5,"name":"raman","age":26,"salary":60000},
+    {"id":5,"name":"raghu","age":28,"salary":60000}
+]
